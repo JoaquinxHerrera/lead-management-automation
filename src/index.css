@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600&family=Instrument+Serif&display=swap");
+
+@import "tailwindcss";
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.font-serif {
+  font-family: "Instrument Serif", serif;
+}
+
+.font-mono {
+  font-family: "DM Mono", monospace;
+}
