@@ -11,7 +11,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/n8n": {
-        target: "http://localhost:5678",
+        target: "https://lead-management-automation.vercel.app/",
         changeOrigin: true,
         rewrite: (path) =>
           path.replace(/^\/n8n/, ""),
